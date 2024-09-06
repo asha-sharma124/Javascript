@@ -1,8 +1,8 @@
 //datatypes are classified as primitive and non-primitive on the basis of storing and accessing from memmory
-//primitive data types are
+//primitive data types are stored in stack
 // 7 types= string ,number ,boolean , null, undefined ,symbol(used for making unique number or value),BigInt
 
-//non primitive or reference type
+//non primitive or reference type   stored in heap
 //Arrays,Objects,functions  alll return typeof as object
 
 const a="10"
