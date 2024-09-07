@@ -60,14 +60,32 @@ const obj2={
 const obj3={obj1,obj2}
 //console.log(obj3)
 //const obj5=Object.assign(obj1,obj2) in this both object will combine and the output will dlflect in obj1 so bad practise
-const obj4=Object.assign({},obj1,obj2)//we applied curly nbracket so that output will deflect and add in new object and not in obj1]
-const obj6={...obj1,...obj2}
-console.log(obj4)
-console.log(obj6["1"])
+// const obj4=Object.assign({},obj1,obj2)//we applied curly nbracket so that output will deflect and add in new object and not in obj1]
+// const obj6={...obj1,...obj2}
+// console.log(obj4)
+// console.log(obj6["1"])
 
 
-console.log(Object.keys(userone));
-console.log(Object.values(userone));
-console.log(Object.entries(userone));
+// console.log(Object.keys(userone));
+// console.log(Object.values(userone));
+// console.log(Object.entries(userone));
 
-console.log(userone.hasOwnProperty("firstname"))
+// console.log(userone.hasOwnProperty("firstname"))
+
+const course={
+    name:"asha sharma",
+    course:"chai aur code",
+    courseinside:"javascript"
+}
+
+//*****************destructuring in javascript********************
+
+//if we want to access an single value  more than a time then why using dot and sq. bracket onbe more method
+const {courseinside:c1,name}=course//we can give alias as c1
+console.log(c1 ," ",name)
+
+//***************************JSON data format***************** */
+// {
+//     "name": "asha",
+//     "course":"hindi"
+// }
